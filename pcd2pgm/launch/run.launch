@@ -1,0 +1,15 @@
+<!-- -->
+<launch>
+<node pkg="pcd2pgm" name="pcd2pgm" type="pcd2pgm" output="screen">
+<param name="file_directory" value= "/home/robot/map/3d_map/6f/" />
+<param name="file_name" value= "map" />
+<param name="thre_z_min" value= "0.1" />
+<param name="thre_z_max" value= "1.5" />
+<param name="flag_pass_through" value= "0" />
+<param name="thre_radius" value= "0.5" />
+<param name="thres_point_count" value= "10" />
+<param name="map_resolution" value= "0.05" />
+<param name="map_topic_name" value= "map" />
+</node>
+
+</launch>
